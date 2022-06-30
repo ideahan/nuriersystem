@@ -1,12 +1,14 @@
 $(document).ready(function () {
-    var WinHeight = $(window).height();
-    console.log(WinHeight);
-	$(window).scroll(function(){
-        if( WinHeight > 114){
-            $('#header').addClass('active')
-        }
-        else {
-            $('#header').removeClass('active')
-        }
-    })
+
+  
 });
+$(window).scroll(function(){
+    var serT = $(window).scrollTop();
+    console.log(serT);
+    if( serT == $(document).height()-$(window).height()){
+        $('#header').addClass('active')
+    }
+    else {
+        $('#header').removeClass('active')
+    }
+})
