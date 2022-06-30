@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import url('reset.css');
+@import url('common.css');
+@font-face {
+  font-family: 'NotoSansKR';  
+  font-style: normal;
+  font-weight: 200;
+  src: url('../../static/font/NotoSansKR-Light.eot');
+  src: url('../../static/font/NotoSansKR-Light.eot?#iefix') format('embedded-opentype'),
+       url('../../static/font/NotoSansKR-Light.woff2') format('woff2'), 
+       url('../../static/font/NotoSansKR-Light.woff') format('woff'),          
+       url('../../static/font/NotoSansKR-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../static/font/notokr-medium.eot');
+  src: url('../../static/font/notokr-medium.eot?#iefix') format('embedded-opentype'),
+       url('../../static/font/notokr-medium.woff2') format('woff2'), 
+       url('../../static/font/notokr-medium.woff') format('woff'),          
+       url('../../static/font/notokr-medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../static/font/notokr-bold.eot');
+  src: url('../../static/font/notokr-bold.eot?#iefix') format('embedded-opentype'),
+       url('../../static/font/notokr-bold.woff2') format('woff2'), 
+       url('../../static/font/notokr-bold.woff') format('woff'),          
+       url('../../static/font/notokr-bold.otf') format('opentype');
+}
+
+/* @import url(//spoqa.github.io/css/SpoqaHanSansNeo.css);
+@import url(//spoqa.github.io/css/SpoqaHanSans-jp.css); 
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 700;
+  src: local('Spoqa Han Sans Bold'),
+  url('../static/font/SpoqaHanSansBold.woff2') format('woff2'),
+  url('../static/font/SpoqaHanSansBold.woff') format('woff'),
+  url('../static/font/SpoqaHanSansBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 400;
+  src: local('Spoqa Han Sans Regular'),
+  url('../static/font/SpoqaHanSansRegular.woff2') format('woff2'),
+  url('../static/font/SpoqaHanSansRegular.woff') format('woff'),
+  url('../static/font/SpoqaHanSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 300;
+  src: local('Spoqa Han Sans Light'),
+  url('../static/font/SpoqaHanSansLight.woff2') format('woff2'),
+  url('../static/font/SpoqaHanSansLight.woff') format('woff'),
+  url('../static/font/SpoqaHanSansLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 100;
+  src: local('Spoqa Han Sans Thin'),
+  url('../static/font/SpoqaHanSansThin.woff2') format('woff2'),
+  url('../static/font/SpoqaHanSansThin.woff') format('woff'),
+  url('../static/font/SpoqaHanSansThin.ttf') format('truetype');
+}
+*/
+
+
+body {font-family: 'NotoSansKR', sans-serif;}
+a,button  {cursor:pointer;}
+#wrap {width:100%;}
+#header.active {background-color: #ffffff;}
+#header.active nav ul li a {color:#000000}
+#header {position: fixed;top:0;width:100%;height:114px;}
+#header .inner_line {width:100%;height:100%;border-left:1px solid #707070;border-right:1px solid #707070}
+#header .inner {position:relative;display:flex;width:1740px;height:100%;margin:0 auto;align-items: center;justify-content:space-between;outline:1px solid #c64;}
+#header h1 {position:absolute;/* top:28px; left:93px;*/}
+#header nav {position:absolute;/* top:28px; */left:570px;display:flex;flex-direction:row;}
+#header nav ul {display: flex;flex-direction: row;}
+#header nav ul li {}
+#header nav ul li a {display: block;padding-left:45px;padding-right:45px;font-size:20px;color:rgba(255, 255, 255, 1)}
+
+#container {width:100%;/* padding-top:114px; */}
+#content {height:auto !important;height:500px;min-height:500px;}
+.main_section_01 {height:840px;background-color:pink;}
+.main_section_01 .txt_tit {color:rgba(255, 255, 255, 1)}
+.main_section_01 span {font-size:16px;}
+.main_section_01 span b {font-size:60px;}
+
+.main_section_08 {position: relative;width:100%;height:450px;background-color:rgba(6, 45, 0, 0.4) ;background-image: url(../../images/main/bgimg_main_section_08.jpg);}
+.main_section_08 .txt_tit {padding-top: 112px;font-size:52px;text-align:center;color:rgba(255, 255, 255, 1)}
+.main_section_08 .txt_tit > b {}
+.main_section_08 .txt_sub {padding-top: 24px;padding-bottom:57px;font-size:16px;text-align:center;color:rgba(255, 255, 255, 1)}
+.main_section_08 button {text-align: center;}
+.btn_top {position:fixed;right:0;bottom:0;width:60px;height:60px;background-color:#090909;}
+#footer {width:100%;height:190px;background-color:rgba(38, 38, 38, 1);}
+#footer .inner {position: relative;width:1740px;margin:0 auto;padding:50px 0 50px 0px;color:rgba(158, 157, 157, 1)}
+#footer .inner .txt_01 {font-size:14px;}
+#footer .inner .txt_01 li {display:inline-flex;flex-direction: row;}
+#footer .inner .txt_01 li a {display: block;color:rgba(255, 255, 255, 1)}
+#footer .inner .txt_02 {display:flex;flex-direction: row;}
+#footer .inner .txt_02 li a {display: block;color:rgba(158, 157, 157, 1)}
+#footer .inner .btn_area {position: absolute;top:56px;right:90px;}
+
+
