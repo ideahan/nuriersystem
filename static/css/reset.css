@@ -30,6 +30,7 @@ body {
     padding:0;
     font-size:14px;word-break:break-all;color:#333;
     line-height:1;
+    font-weight: 500;
     background:transparent;
 }
 article,aside,details,figcaption,figure,
