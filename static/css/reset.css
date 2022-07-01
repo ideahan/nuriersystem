@@ -17,6 +17,7 @@ time, mark, audio, video {
     font-size:100%;
     background:transparent;
     box-sizing:border-box;
+    font-style: normal;
 }
 img {vertical-align:top;}
 a {text-decoration:none;box-sizing:border-box;}
