@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var delta = false, // 以묐났諛⑹���
+    var delta = false, //
         //    thisScroll,
         lastScroll = 0;
     $(window).on("scroll", function () {
