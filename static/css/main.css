@@ -79,7 +79,7 @@ body.active { overflow: hidden;}
 /* 2022 06 30 */
 .slide1 .swiper-slide .mauto {
     position: absolute;
-    left: 50%;
+    left: 828px;
     top: -133px;
     z-index: 2;
     height: 100%;
@@ -89,8 +89,8 @@ body.active { overflow: hidden;}
 /* //2022 06 30 */
 .slide1 .swiper-slide .titlebox {
     position: absolute;
-    left: -228px;
-    top: 554px;
+    /* left: -228px; */
+    top: 50%;
     transform: translate(0, -50%);
     -webkit-transform: translate(0, -50%);
 }

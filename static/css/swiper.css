@@ -189,7 +189,7 @@
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
     background: url("../../images/main/next.png") no-repeat center; /*2022 06 22*/
-    left: 365px;
+    left: 355px;
     right: auto;
 }
 .swiper-button-prev.swiper-button-white,
