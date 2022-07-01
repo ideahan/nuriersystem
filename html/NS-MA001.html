@@ -14,15 +14,22 @@
 <meta name="Description" content="">
 <title>main | 누리어시스템</title>
 <link rel="stylesheet" href="../static/css/nuriersystem.css">
-<link rel="stylesheet" href="../static/css/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="../static/css/default.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/font.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/main.css" />
+<link rel="stylesheet" type="text/css" href="../static/css/swiper.css" />
 <script type="text/javascript" src="../static/js/jquery-1.12.4.js"></script>
 <script type="text/javascript" src="../static/js/jquery-ui.js"></script>
 <script type="text/javascript" src="../static/js/common-ui.js"></script>
+<script type="text/javascript" src="../static/js/default.js"></script>
+<script  type="text/javascript" src="../static/js/swiper.js"></script>
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 </head>
 
 <body>
 <!-- wrap -->
-<div id="wrap">
+<div>
 	<!--script src="../../@pub_include/header.js"></script>< //include -->
     <!-- header -->
     <header id="header" class="">
@@ -44,16 +51,80 @@
     </header>
     <!--// header -->
 	<!-- container -->
-	<div id="container">
+
 		<!-- contents -->
 		<div id="content">
+            <div class="scroll">
+                <a href="#a"><span class="hide">아래로</span>
+                    <div class="scroll-downs">
+                        <div class="mousey">
+                          <div class="scroller"></div>
+                        </div>
+                      </div>
+                </a>
+            </div>
             <section class="main_section_01">
+                <div class="main_visual">
+                    <div class="swiper-container slide1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide area1">
+                                <!-- <img src="img/main/bg_visual1.png" alt=""> -->
+                                <div class="bg"></div>
+                                <div class="mauto">
+                                    <div class="titlebox">
+                                        <div class="title1">INNOVATION</div>
+                                        <div class="title1">FINTECH LEADER</div>
+                                        <div class="title1 sub_text">금융의 가치를 높이는 전문가들이 변화와 혁신을 주도하는 IT 파트너</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide area2">
+                                <!-- <img src="img/main/bg_visual2.png" alt=""> -->
+                                <div class="bg"></div>
+                                <div class="mauto">
+                                    <div class="titlebox">
+                                        <div class="title1">WE BUILD</div>
+                                        <div class="title1">YOUR e-Business</div>
+                                        <div class="title1 sub_text">IT 기술체게 정립과 KNOW-HOW로 정확하고 신뢰할 수 있는 운용시스템 제공</div>
+                                        <img class="img_position" src="../../images/main/service.png" alt="서비스 목록">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide area3">
+                                <!-- <img src="img/main/bg_visual3.png" alt=""> -->
+                                <div class="bg"></div>
+                                <div class="mauto">
+                                    <div class="titlebox">
+                                        <div class="title1">Creative User</div>
+                                        <div class="title1">eXperience Group</div>
+                                        <div class="title1 sub_text">Multi e-Business 환경에 최신 트랜드 디지털 기술을 결합한 UI/UX 비즈니스 플랫폼을 제공</div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="control_buttons">
+                            <button class="start_button"></button>
+                            <button class="stop_button"></button>
+                        </div>
+                        
+                        <div class="swiper-button-next c"></div>
+                        <div class="swiper-button-prev"></div>
+                        
 
+                    
+                        
+                    </div>
+                
+                    
+                </div>
             </section>
             <section class="main_section_02">
 
             </section>
             <section class="main_section_03">
+             
                 <div class="inner">
                     <div class="news_box">
                         <strong>NURIER NEWS</strong>
